@@ -30,3 +30,15 @@ nav a {
   text-decoration: none;
   border-radius: 5px;
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
